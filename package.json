@@ -2,10 +2,10 @@
     "name": "Sunrize-Launcher",
     "preductname": "Sunrize Launcher",
     "version": "1.0.7",
-    "description": "Test y eventos de Sunrize Launcher",
+    "description": "Serie de OneLife 2",
     "main": "src/app.js",
     "author": "SunrizeStudios",
-    "url": "http://3.84.232.149/sunrizelauncher",
+    "url": "http://3.84.232.149/on15elife541651",
     "engines": {
         "node": "16.x.x"
     },
@@ -31,6 +31,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/GunixYT/SunrizeLauncher.git"
+        "url": "git+https://github.com/GunixYT/OneLife-Launcher.git"
     }
 }
