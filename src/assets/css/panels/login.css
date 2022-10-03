@@ -27,24 +27,24 @@
     color: #fff;
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;
+    transition:all 1s ease;
 }
 
 .login-type-btn:hover {
     background-color: #1f1f1f;
     box-shadow: 0 0 5px #1f1f1f;
-    transition: all .5s ease;
 }
 
 .login-type-btn:disabled {
     background-color: #131313;
     box-shadow: 0 0 5px #131313;
     cursor: default;
+    transition:all 1s ease;
 }
 
 .login-type-btn:disabled:hover {
     background-color: #1f1f1f;
     box-shadow: 0 0 5px #1f1f1f;
-    transition: all .5s ease;
 }
 
 .login-card-mojang {
@@ -101,6 +101,7 @@
     color: #121212;
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;
+    transition: all 1s ease;
 }
 
 .login-btn:hover {
@@ -114,6 +115,7 @@
     color: #F1F1F1;
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;
+    transition: all 1s ease;
 }
 
 .cancel:hover {

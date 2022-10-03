@@ -23,8 +23,14 @@ class Splash {
     async startAnimation() {
         let splashes = [
             { "message": "Gracias por apoyar <3", "author": "Sunrize Game Studio's" },
-            { "message": "BetaTesters", "author": "Sunrize Game Studio's" },
-            { "message": "Recuerda, reportar cualquier error", "author": "Sunrize Game Studio's" }
+            { "message": "Bienvenido a OneLife 2", "author": "Sunrize Game Studio's" },
+            { "message": "Recuerda, reportar cualquier error", "author": "Sunrize Game Studio's" },
+            { "message": "Compra vidas en www.sunrizestudios.com", "author": "Sunrize Game Studio's" },
+            { "message": "Zuricatos!", "author": "Sunrize Game Studio's" },
+            { "message": "Recuerda, reportar cualquier error", "author": "Sunrize Game Studio's" },
+            { "message": "Estan prohibidos los dupeos", "author": "Sunrize Game Studio's" },
+            { "message": "Una alma cuesta $20.35", "author": "Sunrize Game Studio's" },
+            { "message": "Se vienen mas cosas...", "author": "Sunrize Game Studio's" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
@@ -79,10 +85,10 @@ class Splash {
     }
 
     shutdown(text) {
-        this.setStatus(`${text}<br>Arrêt dans 5s`);
+        this.setStatus(`${text}<br>Cerrando en 5s`);
         let i = 4;
         setInterval(() => {
-            this.setStatus(`${text}<br>Arrêt dans ${i--}s`);
+            this.setStatus(`${text}<br>Cerrando en ${i--}s`);
             if (i < 0) ipcRenderer.send('update-window-close');
         }, 1000);
     }
