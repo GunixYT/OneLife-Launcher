@@ -1,7 +1,7 @@
 {
     "name": "Sunrize-Launcher",
     "preductname": "Sunrize Launcher",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Test y eventos de Sunrize Launcher",
     "main": "src/app.js",
     "author": "SunrizeStudios",
