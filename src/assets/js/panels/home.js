@@ -163,7 +163,7 @@ class Home {
                 new logger('Minecraft', '#36b030');
                 if(launcherSettings.launcher.close === 'close-launcher') ipcRenderer.send("main-window-hide");
                 progressBar.style.display = "none"
-                info.innerHTML = `Inicio en progreso...`
+                info.innerHTML = `Iniciando...`
                 console.log(e);
             })
 

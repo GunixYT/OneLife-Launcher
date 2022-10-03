@@ -55,7 +55,7 @@ class Splash {
             else this.checkUpdate();
         }).catch(e => {
             console.error(e);
-            return this.shutdown("Aucune connexion internet détectée,<br>veuillez réessayer ultérieurement.");
+            return this.shutdown("No se detectó conexión a Internet,<br>Vuelva a intentarlo más tarde.");
         })
     }
 

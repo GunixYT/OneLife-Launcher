@@ -1,11 +1,11 @@
 {
     "name": "Sunrize-Launcher",
     "preductname": "Sunrize Launcher",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "description": "Test y eventos de Sunrize Launcher",
     "main": "src/app.js",
     "author": "SunrizeStudios",
-    "url": "http://3.84.232.149/595one56li1f2e2",
+    "url": "http://3.84.232.149/on15elife541651",
     "engines": {
         "node": "16.x.x"
     },
